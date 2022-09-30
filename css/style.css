@@ -39,3 +39,14 @@ nav ul li {
     align-items: center;
     font-size: 1.3rem;
 }
+
+.container{
+    min-height: 75vh;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+}
