@@ -2,7 +2,9 @@
 
 body {
     background-color: antiquewhite;
+    
 }
+
 
 nav ul {
     display: flex;
@@ -13,6 +15,7 @@ nav ul {
 * {
     margin: 0;
     padding: 0;
+
 }
 
 nav {
@@ -40,8 +43,16 @@ nav ul li {
     font-size: 1.3rem;
 }
 
-.container{
+.container {
     min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin:23px auto;
+    width: 70%;
+    border-radius: 12px;
+    background-image: url();
+
 }
 
 .bottom {
@@ -49,4 +60,31 @@ nav ul li {
     height: 100px;
     background-color: black;
     bottom: 0;
+
+}
+
+.icons {
+    color: white;
+    margin-top: 12px;
+
+}
+.icons i{
+    cursor: pointer;
+}
+
+footer {
+    position: sticky;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myprogressbar {
+    width: 80vw;
+    text-align: center;
+
+
 }
