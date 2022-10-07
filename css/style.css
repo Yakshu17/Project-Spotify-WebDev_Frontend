@@ -2,7 +2,7 @@
 
 body {
     background-color: antiquewhite;
-    
+    background-image: url(https://media1.giphy.com/media/VnIoecjQ3caw8/giphy.gif?cid=790b7611974092d25362c91e8760c23f1d532c06803a4f15&rid=giphy.gif&ct=g);
 }
 
 
@@ -50,16 +50,8 @@ nav ul li {
     display: flex;
     margin:23px auto;
     width: 70%;
-    border-radius: 12px;
+    border-radius: 13px;
     background-image: url();
-
-}
-
-.bottom {
-    position: sticky;
-    height: 100px;
-    background-color: black;
-    bottom: 0;
 
 }
 
@@ -75,11 +67,14 @@ nav ul li {
 footer {
     position: sticky;
     background-color: black;
-    height: 100px;
+    height: 67px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 19px 0;
+    margin: 7px 138px;
+    border-radius: 34px;
 }
 
 #myprogressbar {
@@ -87,4 +82,26 @@ footer {
     text-align: center;
 
 
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+    margin: 19px 35px;
+}
+
+.songItem img{
+    width: 60px;
+    height: 45px;
+    border-radius: 34px;
+    
+}
+i{
+cursor: pointer;
 }
