@@ -19,7 +19,7 @@ nav ul {
 }
 
 nav {
-    font-family: 'Ubuntu' sans-serif;
+    font-family: 'Ubuntu' 'sans-serif';
     height: 60px;
     background-color: black;
     color: white;
@@ -76,10 +76,23 @@ footer {
     margin: 7px 138px;
     border-radius: 34px;
 }
+.banner{
+
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu' 'sans-serif';
+}
+.banner span img{
+    height:30vh;
+    margin:20vh 20vh;
+    opacity: 0;
+    transition: 0.4s;
+}
 
 #myprogressbar {
     width: 80vw;
     text-align: center;
+    cursor: pointer;
 
 
 }
@@ -92,14 +105,15 @@ footer {
     margin: 12px 0;
     justify-content: space-around;
     align-items: center;
-    border-radius: 34px;
+    border-radius: 8px;
     margin: 19px 35px;
+    font-family: 'Ubuntu' 'sans-serif';
 }
 
 .songItem img{
     width: 60px;
     height: 45px;
-    border-radius: 34px;
+    border-radius: 20px;
     
 }
 i{
