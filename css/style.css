@@ -73,7 +73,7 @@ footer {
     align-items: center;
     flex-direction: column;
     padding: 19px 0;
-    margin: 7px 138px;
+    margin: 7px 104px;
     border-radius: 34px;
 }
 .banner{
@@ -118,4 +118,7 @@ footer {
 }
 i{
 cursor: pointer;
+}
+a{
+    color: white;
 }
