@@ -11,7 +11,7 @@ let songItem=Array.from(document.getElementsByClassName('songItem'));
 let songs=[
     {songName:"Let Me Love You",filepath:"songs/1.mp3",coverpath:"img/img1.jpg"},
     {songName:"Lovely",filepath:"songs/2.mp3",coverpath:"img/img2.png"},
-    {songName:"Someone will love you better",filepath:"songs/3.mp3",coverpath:"img/img3.jpg"},
+    {songName:"Someone will love you",filepath:"songs/3.mp3",coverpath:"img/img3.jpg"},
     {songName:"Stay",filepath:"songs/4.mp3",coverpath:"img/img4.png"},
     {songName:"Baila Conmigo",filepath:"songs/5.mp3",coverpath:"img/img5.jpg"},
     {songName:"Let Me Down Slowly",filepath:"songs/6.mp3",coverpath:"img/img6.jpg"},
