@@ -108,6 +108,7 @@ footer {
     border-radius: 8px;
     margin: 19px 35px;
     font-family: 'Ubuntu' 'sans-serif';
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .songItem img{
@@ -121,4 +122,11 @@ cursor: pointer;
 }
 a{
     color: white;
+}
+
+.header{
+
+margin-left:30px;
+margin-top:20px;
+
 }
