@@ -17,7 +17,42 @@ I've used both in flex display and used some margin and padding for adjustment(c
 and also text color: white and give a height of 60px to the nav with the font -family:'Ubuntu' 'sans-serif',
 
 After that I've created a "Div" with container class.
+In container class,there is one more class "songlist"---> This class is used to create song lists. 
 
-In this class, I created 7 "div" to created 
+In songlist class, I created 7 "div" ,named as Songitems, this class is used to create songlist, 
+Add Images using "img" tag and but in this class I've use javascript to add name and images to the container class. 
+"CSS" ----->
+container class ----->
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin:23px auto;
+    width: 70%;
+    border-radius: 13px;
+    background-image: url();
+After that make a banner class for background gif, In this class using Justify-content:center and align-items:center.
 
+At Last create a footer for progressbar and also play,pause buttons.
+Using FontAwesome ------>
+* To create play button and pause button-->
+code---->
+<script src="https://kit.fontawesome.com/a21ef0aaf8.js" crossorigin="anonymous"></script>
+<i class="fas fa-fast-backward"></i>
+            <i class="fas fa-3x fa-play-circle" id="masterplay"></i>
+            <i class="fas fa-fast-forward"></i>
+By using javascript ,I've created progressbar,play(pause),PlayNexSong,changing the opacity of the gif.
 
+############################ --> JavaScript(JS) <-- #####################################
+In this I am going to explain about javascript, How to make those those works. 
+Javascript is connected with main "HTML" file by using "script" tag in "Body" tag .
+-----><script src="js/script.js"></script>
+
+First of all Initilise the variables :
+By using the "let" I've created 6 variables :
+* let songindex=0; ------------------> This variable is used to tell the index of songs varibales.
+* let audioElement =new Audio('songs/1.mp3');------>This variable is used to select the audio element present in our files.
+* let masterplay= document.getElementById('masterplay');------->
+* let myprogressbar= document.getElementById('myprogressbar');
+* let gif= document.getElementById('gif');
+* let songItem=Array.from(document.getElementsByClassName('songItem'));
